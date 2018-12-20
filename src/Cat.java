@@ -5,7 +5,6 @@
 
 		/* Do the following things without changing the Cat class */
 
-		// Create a CatRunner class with a main method that creates a Cat object.
 
         // 1. Make the Cat meow
 		
@@ -16,12 +15,12 @@
 
 
 public class Cat {
-
+	
 	private String name;
 	private int lives = 9;
 
 	Cat(String name) {
-		this.name = name;
+		this.name= name;
 	}
 
 	void meow() {
