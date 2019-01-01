@@ -10,6 +10,26 @@ m.setTime(cookTime);
 m.startMicrowave();
 Popcorn p=new Popcorn(flavor);
 p.applyHeat();
+p.applyHeat();
+p.applyHeat();
+p.applyHeat();
+p.applyHeat();
+p.applyHeat();
+p.applyHeat();
+p.applyHeat();
+p.applyHeat();
+p.applyHeat();
+p.applyHeat();
+p.applyHeat();
+p.applyHeat();
+p.applyHeat();
+p.applyHeat();
+p.applyHeat();
+p.applyHeat();
+p.applyHeat();
+p.applyHeat();
+p.applyHeat();
+p.applyHeat();
 p.eat();
 }
 }
