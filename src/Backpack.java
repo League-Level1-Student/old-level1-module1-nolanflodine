@@ -40,7 +40,7 @@ public class Backpack
 		log(supply);
 	}
 
-	private void log(Supply supply)
+	public void log(Supply supply)
 	{
 		String description;
 		if (supply == null)
@@ -64,6 +64,11 @@ public class Backpack
 			System.out.println("Congratulations! You are ready for school");
 		}
 	}
+
+	public void log() {
+		// TODO Auto-generated method stub
+		
+	}
 }
 
 abstract class Supply
@@ -82,6 +87,11 @@ class Pencil extends Supply
 	public void write(String writing)
 	{
 		System.out.println(writing);
+	}
+
+	public void write() {
+		// TODO Auto-generated method stub
+		
 	}
 }
 
